@@ -53,7 +53,7 @@ export const CONTRACT_YEARS = 3;
 
 // 계약 시작일(하드코딩): 2026년 7월 16일
 function todayIsoKST(): string {
-  return "2026-07-16";
+  return "2026-09-30";
 }
 
 // 시작일 기준 N년 뒤 하루 전(만료일)을 계산합니다.
