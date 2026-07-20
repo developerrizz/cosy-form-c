@@ -324,7 +324,7 @@ export function CreatorForm() {
   const ar = adRatio.split(":");
 
   const todayStr = useMemo(() => {
-    return `2026년 9월 30일`;
+    return `2026년 10월 01일`;
   }, []);
 
   const signBlockedReason = !emailVerified || !agreeESign || !hasSigned || !agreeExtras;
