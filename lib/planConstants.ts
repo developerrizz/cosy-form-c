@@ -51,9 +51,9 @@ export function planIsExclusive(plan: PlanId | null): boolean {
 // 계약 기간(년). 시작일은 계약 진행 시점(오늘)으로 자동 설정됩니다.
 export const CONTRACT_YEARS = 3;
 
-// 계약 시작일(하드코딩): 2026년 7월 16일
+// 계약 시작일(하드코딩):
 function todayIsoKST(): string {
-  return "2026-09-30";
+  return "2026-10-01";
 }
 
 // 시작일 기준 N년 뒤 하루 전(만료일)을 계산합니다.
