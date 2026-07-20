@@ -364,7 +364,7 @@ export function CreatorForm() {
       </div>
       <div className="contract-row">
         <span className="cl">커머스 수익</span>
-        <span className="cv">RIZZ 독점 영업 / 건별 협의한 비율로 나눔</span>
+        <span className="cv">RIZZ 독점 영업 / 건별 협의한 비율로 나눔 (단, RIZZ 계약 전 진행하던 건은 아티스트 전체 귀속)</span>
       </div>
     </div>
   );
@@ -921,7 +921,7 @@ export function CreatorForm() {
                       </div>
                       <div className="contract-row">
                         <span className="cl">수익활동</span>
-                        <span className="cv">{planIsExclusive(selectedPlan) ? "RIZZ 전담 (독점)" : "광고 자유 · 커머스 RIZZ 독점"}</span>
+                        <span className="cv">{planIsExclusive(selectedPlan) ? "RIZZ 전담 (독점)" : "광고 자유 · 커머스 RIZZ 독점 (단, RIZZ 계약 전 진행하던 건들은 아티스트 전체 귀속)"}</span>
                       </div>
                       <div className="contract-row">
                         <span className="cl">전담 매니저</span>
